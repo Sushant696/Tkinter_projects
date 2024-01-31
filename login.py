@@ -1,9 +1,9 @@
 from tkinter import *
 from register import register_form
-from main import homePage
+# from main import homePage
 
-global login_status
-login_status = False
+# global login_status
+# login_status = False
 
 def login():
     global login_status  # Declare as global to modify the global variable
@@ -23,8 +23,8 @@ def login():
 def register():
     register_form(root)  # passing the root component
 
-def home():
-    homePage(root, login_status)
+# def home():
+#     homePage(root, login_status)
 
 # Create the main window
 root = Tk()
